@@ -1,0 +1,20 @@
+﻿Nama Kolom,Tipe Data,Missing Values,Missing (%),Jumlah Unik,Sampel Nilai
+order_id,str,0,0.0,30,ORD-2609-001 | ORD-2609-002 | ORD-2609-003
+customer_id,str,0,0.0,14,C004 | C014 | C001
+order_date,datetime64[us],0,0.0,30,2026-09-23 08:47:17 | 2026-09-23 18:47:57 | 2026-09-23 08:01:05
+channel,str,0,0.0,2,Online | Offline
+coupon_code,str,6,20.0,3,GAJIAN15 | AKHIRBULAN20 | DISKON10K
+discount_amount,int64,0,0.0,12,0 | 168750 | 100000
+total_amount,int64,0,0.0,30,330000 | 155000 | 340000
+payment_method,str,0,0.0,5,Debit | Tunai | QRIS
+customer_name,str,6,20.0,11,Anita Sari | Budi Santoso | Putri Anggraini
+membership_tier,str,6,20.0,4,Platinum | Gold | Bronze
+city,str,6,20.0,8,Jakarta | Semarang | Solo
+join_date,datetime64[us],6,20.0,11,2022-06-30 | 2023-02-11 | 2023-07-02
+tracking_number,str,12,40.0,18,SIC3208283728 | SIC3084839399 | JJT3030106617
+delivery_status,str,12,40.0,4,DELIVERED | PENDING_PICKUP | FAILED
+shipped_at,datetime64[us],12,40.0,8,2026-09-23 15:00:00 | 2026-09-24 15:00:00 | 2026-09-25 15:00:00
+courier_name,str,12,40.0,4,SiCepat | J&T | AnterAja
+courier_service,str,12,40.0,3,BEST | EZ | REG
+destination_city,str,12,40.0,8,Bandung | Jakarta | Semarang
+destination_province,str,12,40.0,7,Jawa Barat | DKI Jakarta | Jawa Tengah
